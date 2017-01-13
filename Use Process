@@ -4,7 +4,7 @@
 2)Run OpenSSL.exe 
 3)Convert the .p12 file provided by CAISO to a .pem file using command: OpenSSL> pkcs12 -in C:\Users\Admin\Desktop\PCG2.p12 -out C:\Users\Admin\Desktop\PCG2.pem -nodes
 4)Remove passphrase associated with your key using command: OpenSSL> rsa -in C:\Users\Admin\Desktop\PCG2.pem -out C:\Users\Admin\Desktop\PCGkey.pem  
-5)Copy first certificate from the file generated at step3 to the key file generated at step5. PEM files can be opened in Notepad. Just append certificate to key
+5)Copy first certificate from the file generated at step3 to the key file generated at step4. PEM files can be opened in Notepad. Just append certificate to key
 6)Download python 2.6.1
       https://www.python.org/download/releases/2.6.1/
 7)Download suds0.4
