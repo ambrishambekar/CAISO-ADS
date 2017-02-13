@@ -3,7 +3,7 @@ Python Client to access CAISO's automated dispatch system
 
 ADS.py<br />
   1) Stores most recent trajectory and disptach data as an xml file on your machine<br />
-  2) Dispatch Operational Traget(DOT) is constantly updated in a csv file on your machine<br />
+  2) Dispatch Operationing Traget(DOT) is constantly updated in a csv file on your machine<br />
 
 
 Modbus_ADS.py<br />
