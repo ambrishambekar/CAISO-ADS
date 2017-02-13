@@ -1,12 +1,12 @@
 # CAISO-ADS
 Python Client to access CAISO's automated dispatch system
 
-ADS.py<br />
+ADS.py(12-Jan-2017)<br />
   1) Stores most recent trajectory and disptach data as an xml file on your machine<br />
   2) Dispatch Operationing Traget(DOT) is constantly updated in a csv file on your machine<br />
 
 
-Modbus_ADS.py<br />
+Modbus_ADS.py(12-Feb-2017)<br />
   Modbus:<br />
     1) Added a Modbus server.<br />
     2) DOT data will be served on Modbus addresses 40001, 40003 and so on.<br /> 
