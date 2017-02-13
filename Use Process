@@ -18,4 +18,8 @@
 14)Navigate to the Python directory. C:\Python26
 15)Run command python.exe ADS.py
 16)The script will start storing updated DispatchResponse/TrajectoryResponse files in the XML format. Latest DOP MW value will also stored as a .csv file. 
-17)SCADA systems are expected to read the csv file for MW setpoint. For additional batch information SCADA should parse the XML files 
+17)SCADA systems are expected to read the csv file for MW setpoint. For additional batch information SCADA should parse the XML files
+
+###Update Modbus_ADS.py###
+18) Install libraries twisted and pymodbus in your python library package
+19) In the code, enter proper IP address and port number(usually 502) Modbus data will be served on.
