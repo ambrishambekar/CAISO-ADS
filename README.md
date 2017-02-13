@@ -13,7 +13,7 @@ Modbus_ADS.py<br />
     3) Flag on register 10001 indicates quality of data<br />
 
   Multiple plants:<br />
-    1) Added functionality to separate data for multiple power plants, if one CAISO certificate has more then one plant associated with it.<br />
+    1) If a CAISO certificate has more then one plant associated with it, DOT data will be separated on 'resource_id' <br />
   
   Better error handling:<br />
     1) Better use of 'try expect' for error handling<br />
