@@ -24,5 +24,5 @@ To Do:<br />
  2) Test on multiple python versions. Currently tested only on 2.6.1<br />
  3) Parse other relevant Dispatch and Trajectory data and store records in a database.<br />
  
- Update (4/23/2018)
- 1) Caiso stopped supporting TLS1 and TlS1.1 protocols. Support only for TLS1.2. Please upgrade Python to 2.7.9 or higher.
+ Update (23 April 2018)
+ 1) Caiso stopped supporting TLS1 and TlS1.1 protocols. Support only for TLS1.2 Please upgrade Python to 2.7.9 or higher.
