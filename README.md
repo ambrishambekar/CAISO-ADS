@@ -19,7 +19,7 @@ ii) Modbus_ADS.py(12-Feb-2017)<br />
     1) Better use of 'try expect' for error handling<br />
     
  iii) ADS_LMP.py(3-Sept-2018)<br />
-  Integrated ADS with LMP pricing information. Real time locational marginal price for a particular node is scraped from CAISO OASIS. LMP Price served to SCADA on a Modbus register. <br />
+  Integrated ADS with LMP pricing information. Real time locational marginal price for a particular node is scraped from CAISO OASIS. LMP Price served to SCADA on a Modbus register.LMP function definition uploaded to github. Integration with Modbus_ADS code is straightforward.<br />
 
 
 To Do:<br />
