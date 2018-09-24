@@ -97,8 +97,6 @@ from threading import Thread
     
 if __name__ == '__main__':
     Thread(target = ADS).start()
-    Thread(target = ADS_Dispatch).start()
-    Thread(target = Mod).start()
     Thread(target = LMP_Price).start()
 
 
