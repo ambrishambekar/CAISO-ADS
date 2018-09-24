@@ -24,7 +24,7 @@ ii) Modbus_ADS.py(12-Feb-2017)<br />
 
 To Do:<br />
  1) Port to Python3<br />
- 2) Test on multiple python versions. Currently tested only on 2.6.1<br />
+ 2) Test on multiple python versions. Currently tested only on 2.6.1 & 2.7.13<br />
  3) Parse other relevant Dispatch and Trajectory data and store records in a database.<br />  
  
  
