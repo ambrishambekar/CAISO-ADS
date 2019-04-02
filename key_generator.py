@@ -1,8 +1,3 @@
-'''
-Created on Mar 8, 2019
-
-@author: Ambrish.Ambekar
-'''
 from OpenSSL import crypto
 # Enter certificate file name and password in XXXX and YYYYY respectively
 p12= crypto.load_pkcs12(file("C:\\Certificates\\XXXX.pfx", 'rb').read(),"YYYY")
