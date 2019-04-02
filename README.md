@@ -33,5 +33,6 @@ To Do:<br />
 
  Update(2-April-2019)<br/>
  1) Added file key_generator.py.  The file is used to create a .pem file from CAISO issued certificate. The .pem certificate file is transported in the ADS python main file for authentication. <br />
- 2) Please make sure to add OpenSSL library to your Python installation before running key_generator.py
+ 2) Please make sure to add OpenSSL library to your Python installation before running key_generator.py <br />
+ 3) Please make sure CAISO_ROOT_CA and CAISO_ISSUING_CA are in the certificate store of the machine running your ADS python code
  
