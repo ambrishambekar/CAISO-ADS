@@ -32,6 +32,6 @@ To Do:<br />
  1) Caiso discontinued support for TLS1 and TLS1.1 protocols. Support only for TLS1.2 Please upgrade Python to 2.7.9 or higher.
 
  Update(2-April-2019)<br/>
- 1) Added file key_generator.py.  The file is used to create a .pem file from CAISO issed certificate. .pem certificate file is transported in the ADS python main file for authentication. <br />
+ 1) Added file key_generator.py.  The file is used to create a .pem file from CAISO issued certificate. The .pem certificate file is transported in the ADS python main file for authentication. <br />
  2) Please make sure to add OpenSSL library to your Python installation before running key_generator.py
  
